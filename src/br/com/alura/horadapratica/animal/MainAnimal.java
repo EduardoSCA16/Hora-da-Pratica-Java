@@ -1,18 +1,17 @@
 package br.com.alura.horadapratica.animal;
 
+import br.com.alura.horadapratica.animal.models.Cachorro;
+import br.com.alura.horadapratica.animal.models.Gato;
+
 public class MainAnimal {
     static void main(String[] args) {
-        Cachorro c1 = new Cachorro();
+        Cachorro rocky = new Cachorro();
+        Gato pido = new Gato();
 
-        // Realizando o casting
-        Animal animal = (Animal) c1;
+        rocky.emitirSom();
+        rocky.abanarRabo();
 
-        if (animal instanceof Cachorro) {
-            Cachorro cachorro = (Cachorro) animal;
-            System.out.println("Esta variável é da classe Cachorro.");
-        } else {
-            System.out.println("Esta variável não é um Cachorro.");
-        }
-
+        pido.emitirSom();
+        pido.arranharMoveis();
     }
 }
