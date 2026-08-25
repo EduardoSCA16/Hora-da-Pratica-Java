@@ -14,9 +14,11 @@ public class MainGoogleBooks {
         System.out.println("Insira o título de um livro:");
         var titulo = sc.nextLine().replace(" ", "+");
 
-        // Inserindo a API Key de maneira segura
+        // Inserindo a API Key via terminal, é uma maneira segura
         String chaveAPI = System.getenv("GOOGLE_BOOKS_API_KEY");
         String endereco = "https://www.googleapis.com/books/v1/volumes?q=" + titulo + "&key=" + chaveAPI;
+
+        System.out.println(chaveAPI);
 
         HttpClient client = HttpClient.newHttpClient();
 
