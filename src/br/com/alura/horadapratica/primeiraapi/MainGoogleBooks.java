@@ -18,8 +18,6 @@ public class MainGoogleBooks {
         String chaveAPI = System.getenv("GOOGLE_BOOKS_API_KEY");
         String endereco = "https://www.googleapis.com/books/v1/volumes?q=" + titulo + "&key=" + chaveAPI;
 
-        System.out.println(chaveAPI);
-
         HttpClient client = HttpClient.newHttpClient();
 
         HttpRequest request = HttpRequest.newBuilder()
