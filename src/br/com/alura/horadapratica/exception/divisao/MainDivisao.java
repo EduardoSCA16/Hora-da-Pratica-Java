@@ -1,4 +1,4 @@
-package br.com.alura.horadapratica.exception;
+package br.com.alura.horadapratica.exception.divisao;
 
 import java.util.Scanner;
 
