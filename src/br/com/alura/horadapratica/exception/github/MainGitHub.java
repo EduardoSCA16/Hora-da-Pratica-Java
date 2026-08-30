@@ -1,4 +1,4 @@
-package br.com.alura.horadapratica.exception;
+package br.com.alura.horadapratica.exception.github;
 
 import java.io.IOException;
 import java.net.URI;

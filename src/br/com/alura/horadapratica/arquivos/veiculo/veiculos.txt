@@ -1,0 +1,12 @@
+[
+  {
+    "Modelo": "Argo",
+    "Marca": "Fiat",
+    "Combustivel": "Flex"
+  },
+  {
+    "Modelo": "Polo Track",
+    "Marca": "Volkswagen",
+    "Combustivel": "Gasolina"
+  }
+]
